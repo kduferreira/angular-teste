@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+/*O css global vai aplicar estilo em todo o projeto, e o scoop apenas em seu componente.
+mas se voce fizer um style no global e no scoop do componente ja estiver, ele vai dar preferencia ao scoop e depois para o style global. 
+o style global é mais usado para a estrutura geral de uma pagina, margem, espaçamento. e o scoop fica mais responsavel pelo estilo dentro do componente.*/
+
+body{
+  background-color: black;
+}
+button{
+  border-radius: 10px;
+    padding: 10px;
+}

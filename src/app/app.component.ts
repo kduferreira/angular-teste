@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-estudo-app';
   name: string = 'Angular';
+  buttonLabel: string = 'Carrinho'
+  buttonSecond: string = 'Adicionar aos favoritos'
 }

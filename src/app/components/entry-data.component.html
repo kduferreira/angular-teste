@@ -1,0 +1,19 @@
+<input type="text"
+ [value]="placeHolder"
+ (input)="placeHolder = $any($event.target).value"
+ />
+ 
+
+<p> {{placeHolder}}</p>
+
+
+
+<input 
+type="text"
+ [(ngModel)]="placePassword"
+ />
+ 
+
+<p [style.color]="color"> {{placePassword}}</p>
+
+ <!-- propried bind usando [] entre a propriedade do html e passar a propriedade da classe no typescript entre aspas ""--> <!-- propried bind é assosiacao de tudo do typescript para o html e se usa o cochete [], e tudo que se comunica do html para o typescript usa os parenteses ()-->

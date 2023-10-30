@@ -3,4 +3,17 @@
   Learn more about Angular
 </a>
 <menu-component> </menu-component>
-<my-button> </my-button>
+
+<!-- nome disso é data binding (estudar a documentacao sobre )-->
+<!-- Data binding = assosiação de dados-->
+<!-- Interpolação-->
+<my-button label = {{buttonLabel}}> </my-button><!-- passando com os bigodinho {{}} ele espera uma variavel-->
+<my-button [label] ="buttonSecond"> </my-button><!-- é igual ao primeiro modo, esperando uma variavel-->
+
+
+<!-- Property Binding-->
+<my-button label ="Corinthians"> </my-button><!-- ele espera um texto em vez de uma variavel-->
+<my-button [label] ="'buttonSecond'"> </my-button> <!-- ele pega o texto de forma liteal-->
+
+<!-- two way data binding-->
+<entry-data></entry-data>
